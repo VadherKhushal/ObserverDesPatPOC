@@ -7,12 +7,11 @@ import android.app.Application;
  */
 
 public class BaseApp extends Application {
-    Test test;
+    Test test; // Subject which is being observerd
 
     @Override
     public void onCreate() {
         super.onCreate();
-
         test = new Test();
     }
 
